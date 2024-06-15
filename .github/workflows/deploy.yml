@@ -37,6 +37,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "ramarao4-rive-next-94"
-          entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
-          root: "out"
+          project: "ramarao4-rive-next-89"
+          entrypoint: "mod.ts"
+          root: "build"
